@@ -1,0 +1,95 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body{
+  background-color: grey;
+}
+.container{
+  max-width:965px;
+  margin-top: 50px;
+}
+
+.logo img{
+  width: 10%;
+  height: auto;
+    display: block;
+  margin: 40px auto;
+}
+
+.title h1{
+text-align: center;
+font-size: 80px;
+color:black;
+}
+.header{
+  background-color: red;
+  border:black solid 5px;
+}
+
+.slogan{
+  display: block;
+  margin: 0 auto;
+width:70%;
+}
+.slogan p{
+  margin-top: 40px;
+font-size: 30px;
+text-align: center;
+}
+.slogan h4{
+  margin-top: 40px;
+font-size: 30px;
+text-align: center;
+}
+.message{
+  background-color: grey;
+  border:solid 5px black;
+    border-top:0px;
+}
+
+.bikes{
+  background-color: grey;
+  border: 5px solid black;
+  border-top:0px;
+  height:350px;
+ img{
+  width:100%;
+  height: auto;
+  border: 2px solid black;
+  margin:40px auto;
+}
+}
+
+@media(min-width: 480px){
+  .swipe{
+    visibility:hidden;
+    position: absolute;
+  }
+}
+@media (max-width: 480px){
+  .title h1{
+    font-size: 30px;
+  }
+  .logo img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 0;
+  }
+  .remove{
+visibility:hidden;
+position: absolute;
+  }
+.slogan{
+  width:100%;
+}
+  .message h4{
+    font-size: 20px;
+  }
+  .email p{
+    font-size:20px;
+  }
+
+}
